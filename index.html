@@ -1,15 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5ten Auto Detailing</title>
 
-<html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>5ten Auto Detailing</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    
-    <body>
-        <h1>Welcome to 5ten Auto Detailing!</h1>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Oswald:wght@200..700&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONTS END -->
+    <!-- CALENDLY LINK WIDGET -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <!-- CALENDLY LINK WIDGET END -->
 
-    </body>
+    <link rel="stylesheet" href="/css/variables.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="/">5ten Auto Detailing</a>
+      <nav class="navigation-bar">
+        <a href="#"> Services </a>
+        <a href="#"> About </a>
+        <a href="#"> Contact Us </a>
+        <!-- Calendly link widget begin -->
+        <a
+          class="calendly-link"
+          href=""
+          onclick="
+            Calendly.initPopupWidget({
+              url: 'https://calendly.com/5tenautodetailing/detailing_consult',
+            });
+            return false;
+          "
+        >
+          Get a Quote
+        </a>
+        <!-- Calendly link widget end -->
+      </nav>
+    </header>
+
+    <main>main</main>
+    <footer>footer</footer>
+  </body>
 </html>

@@ -1,0 +1,52 @@
+/* RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px dotted red;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+
+  background: var(--brack-color);
+  color: var(--butter-color);
+
+  font-family: "Shrikhand", sans-serif;
+}
+
+header > a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.35rem;
+  letter-spacing: 0.1rem;
+}
+
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  font-family: "Oswald", sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.05rem;
+}
+
+.navigation-bar a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation-bar .calendly-link {
+  background: var(--butter-color);
+  color: var(--brack-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
