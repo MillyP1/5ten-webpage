@@ -8,10 +8,53 @@
   border: 1px dotted red;
 }
 
+@media (orefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+form {
+  display: grid;
+}
+
 body {
   font-family: var(--oswald-font);
   font-weight: 400;
   color: var(--brack-color);
+  line-height: 1.5;
+  -betkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+  resize: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
 }
 
 h1,
@@ -20,9 +63,15 @@ h3,
 h4,
 h5,
 h6 {
+  text-wrap: balance;
   font-family: var(--shrikhand-font);
   font-weight: 400;
   line-height: 1em;
+}
+
+#root,
+#__next {
+  isolation: isolate;
 }
 
 .text-underline {
