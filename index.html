@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <!-- GOOGLE FONTS END -->
+
     <!-- CALENDLY LINK WIDGET -->
     <link
       href="https://assets.calendly.com/assets/external/widget.css"
@@ -27,7 +28,7 @@
 
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/variables.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
 
   <body>
@@ -68,48 +69,109 @@
             expert care.
           </p>
         </div>
-        <img
-          class="hero-image"
-          src="/assets/images/scion-im/2016_scion_im_after_exterior_detail_frontleft.jpg"
-          width="640"
-          alt="2016-scion-im-after-exterior-wash"
-        />
+
+        <div class="hero-image">
+          <img
+            src="/assets/images/scion-im/2016_scion_im_after_exterior_detail_frontleft.jpg"
+            width="640"
+            alt="2016-scion-im-after-exterior-wash"
+          />
+        </div>
+
+        <div class="hero-links">
+          <a class="quote" href="/"><p>Request a quote!</p></a>
+          <a class="text-us" href="/"><p>Text us</p></a>
+        </div>
       </section>
 
-      <section class="home-page-service">
+      <section class="home-page-service text-underline">
         <h1>Our Service Packages</h1>
       </section>
 
       <section class="meet-the-team">
-        <img
-          class="meet-the-team-image"
-          src="/assets/images/team/miles-miranda-teamlead-admin-owner.JPG"
-          width="640"
-          alt="miles-owner-dancing"
-        />
+        <div class="meet-the-team-image">
+          <img
+            src="/assets/images/team/miles-miranda-teamlead-admin-owner.JPG"
+            width="640"
+            alt="miles-owner-dancing"
+          />
+        </div>
+
         <div class="meet-the-team-content">
           <h1>Meet the team!</h1>
           <a href="/"><p>About Us!</p></a>
         </div>
       </section>
+
+      <section class="service-cities-contact-form">
+        <div class="service-cities">
+          <h1>Service areas by city</h1>
+          <ul class="city-list">
+            <li>Hayward, CA</li>
+            <li>Castro Valley, CA</li>
+            <li>Dublin, CA</li>
+            <li>Pleasanton, CA</li>
+            <li>Livermore, CA</li>
+            <li>San Ramon, CA</li>
+            <li>Danville, CA</li>
+            <li>Alamo, CA</li>
+            <li>San Lorenzo, CA</li>
+            <li>San Leandro, CA</li>
+            <li>Union City, CA</li>
+            <li>Fremont, CA</li>
+            <li>Newark, CA</li>
+          </ul>
+        </div>
+
+        <form class="home-contact-form">
+          <h1>Contact Us!</h1>
+          <div class="form-group">
+            <label for="name"> Name: </label><br />
+            <input type="text" id="name" required /><br />
+          </div>
+          <!-- <div class="form-group">
+            <label for="lname"> Last Name: </label><br />
+            <input type="text" id="lname" required /><br />
+          </div> -->
+          <div class="form-group">
+            <label for="email"> E-mail: </label><br />
+            <input type="email" id="email" required /><br />
+          </div>
+          <div class="form-group">
+            <label for="phone"> Phone Number: </label><br />
+            <input type="tel" id="phone" required /><br />
+          </div>
+          <div class="form-group">
+            <label for="message"> Message: </label><br />
+            <textarea id="message" rows="5" cols="32" required></textarea><br />
+          </div>
+        </form>
+      </section>
     </main>
     <footer>
-      <div class="explore">
-        <h4>Explore</h4>
-        <a href="#"><p>Services</p></a>
-        <a href="#"><p>About Us</p></a>
-        <a href="#"><p>Contact</p></a>
+      <div class="footer-section">
+        <h4><span class="text-bold">Explore</span></h4>
+        <nav class="footer-links">
+          <a href="#"><p>Services</p></a>
+          <a href="#"><p>About Us</p></a>
+          <a href="#"><p>Contact</p></a>
+        </nav>
       </div>
-      <img
-        class="outline-logo-with-name"
-        src="/assets/images/5tenAutoDetailing-outline-logo.png"
-        width="320"
-        alt="5tenautodetailing-logo"
-      />
-      <div class="follow-us">
-        <h4>Follow us</h4>
-        <a href="#"><p>WhatsApp</p></a>
-        <a href="#"><p>Instagram</p></a>
+      <div class="logo">
+        <a href="/">
+          <img
+            src="/assets/images/5tenAutoDetailing-outline-logo.png"
+            width="320"
+            alt="5tenautodetailing-logo"
+          />
+        </a>
+      </div>
+      <div class="footer-section">
+        <h4><span class="text-bold">Follow us</span></h4>
+        <nav class="footer-links">
+          <a href="#"><p>WhatsApp</p></a>
+          <a href="#"><p>Instagram</p></a>
+        </nav>
       </div>
     </footer>
   </body>
