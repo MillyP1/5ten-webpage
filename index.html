@@ -14,47 +14,14 @@
     />
     <!-- GOOGLE FONTS END -->
 
-    <!-- CALENDLY LINK WIDGET -->
-    <link
-      href="https://assets.calendly.com/assets/external/widget.css"
-      rel="stylesheet"
-    />
-    <script
-      src="https://assets.calendly.com/assets/external/widget.js"
-      type="text/javascript"
-      async
-    ></script>
-    <!-- CALENDLY LINK WIDGET END -->
-
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/variables.css" />
+    <link rel="stylesheet" href="/css/include.css" />
     <link rel="stylesheet" href="/css/main.css" />
   </head>
 
   <body>
-    <header>
-      <a href="/"><h2>5ten Auto Detailing</h2></a>
-      <nav class="navigation-bar">
-        <a href="#"> Services </a>
-        <a href="#"> About </a>
-        <a href="#"> Contact Us </a>
-        <!-- Calendly link widget begin -->
-        <a
-          class="calendly-link"
-          href=""
-          onclick="
-            Calendly.initPopupWidget({
-              url: 'https://calendly.com/5tenautodetailing/detailing_consult',
-            });
-            return false;
-          "
-        >
-          Get a Quote
-        </a>
-        <!-- Calendly link widget end -->
-      </nav>
-    </header>
-
+    <div id="navbar"></div>
     <main>
       <section class="hero">
         <div class="hero-content">
@@ -148,31 +115,9 @@
         </form>
       </section>
     </main>
-    <footer>
-      <div class="footer-section">
-        <h4><span class="text-bold">Explore</span></h4>
-        <nav class="footer-links">
-          <a href="#"><p>Services</p></a>
-          <a href="#"><p>About Us</p></a>
-          <a href="#"><p>Contact</p></a>
-        </nav>
-      </div>
-      <div class="logo">
-        <a href="/">
-          <img
-            src="/assets/images/5tenAutoDetailing-outline-logo.png"
-            width="320"
-            alt="5tenautodetailing-logo"
-          />
-        </a>
-      </div>
-      <div class="footer-section">
-        <h4><span class="text-bold">Follow us</span></h4>
-        <nav class="footer-links">
-          <a href="#"><p>WhatsApp</p></a>
-          <a href="#"><p>Instagram</p></a>
-        </nav>
-      </div>
-    </footer>
+
+    <div id="footer"></div>
+
+    <script src="scripts/main.js"></script>
   </body>
 </html>
