@@ -48,11 +48,12 @@ footer {
   justify-content: center;
   justify-items: center;
   text-align: center;
-  background: var(--salmon-color);
+  background: var(--brack-color);
+  color: var(--slate-color);
 }
 
 footer a {
-  color: var(--brack-color);
+  color: inherit;
   text-decoration: none;
 }
 
