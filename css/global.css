@@ -19,6 +19,7 @@ form {
 }
 
 body {
+  background: var(--brack-color);
   font-family: var(--oswald-font);
   font-weight: 400;
   color: var(--brack-color);
@@ -80,4 +81,8 @@ h6 {
 
 .text-bold {
   font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
 }
